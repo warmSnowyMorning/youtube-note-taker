@@ -1,0 +1,25 @@
+.__round-container {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: solid red 4px;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  .__left-half {
+    display: flex;
+    flex-direction: column;
+    button {
+      width: 40px;
+      height: 80px;
+      border: 0;
+    }
+   
+  }
+  .__add-note {
+    text-align: center;
+    line-height: 50px;
+    width: 160px;
+    border: 0;
+  }
+}

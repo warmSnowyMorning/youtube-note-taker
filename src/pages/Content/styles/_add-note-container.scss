@@ -1,0 +1,27 @@
+.__add-note-container {
+  top: 91%;
+  position: fixed;
+  left: 100px;
+  form {
+    display: flex;
+    textarea {
+      height: 60px;
+      width: 300px;
+    }
+    .__create-star-note {
+      display: flex;
+      flex-direction: column;
+      margin-left: 3px;
+      label {
+        input {
+          transform: scale(1.5)
+        }
+      }
+    }
+  }
+}
+
+.__create-input {
+  margin-bottom: 2px;
+  height: 45px;
+}
